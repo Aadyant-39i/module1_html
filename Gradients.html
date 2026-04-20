@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #gradient1{
+                height:200px;
+                background: linear-gradient(to right, red, orange, yellow, green, blue, indigo, purple, violet, pink, brown, black);
+            }
+
+            #gradient2{
+                height:200px;
+                background: radial-gradient(circle, red, orange, yellow, green, blue, indigo, purple, violet, pink, brown, black);
+            }
+            @keyframes example {
+                0% {background-color: red;}
+                25% {background-color: orange;}
+                50% {background-color: yellow;}
+                75% {background-color: green;}
+                100% {background-color: blue;}
+            }
+            #div1{
+                width: 100px;
+                height:100px;
+                background-color: aqua;
+                animation-name: example;
+                animation-duration: 5s;
+
+            }
+            body{
+                background-color: blanchedalmond;
+                background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7nrNOwOoxvG8xSAmfidksAJoqYs2LgCLtow&s') ;
+                background-attachment: fixed;
+            }
+
+        </style>
+
+    </head>
+    <body>
+    <div id="gradient1">
+        <p>Gradients</p>
+
+    </div>
+    <div id="gradient2">
+        <p>Gradients</p>
+    </div>
+    <div id=div1></div>
+
+
+
+    </body>
+</html>
