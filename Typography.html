@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <title>
+            Typography
+        </title>
+        <style>
+            h1{
+                text-decoration:overline;
+                text-transform: capitalize;
+            }
+            h2{
+                text-decoration: line-through;
+                text-transform: lowercase;
+            
+            }
+            h3{
+                text-decoration:underline line-through;
+                text-transform: uppercase;
+            }
+            h4{
+                text-decoration: underline overline;
+                text-transform: none;
+            }
+            *{
+                text-align: center;
+                font-family:cursive;
+            }
+            #text{
+                text-shadow: 2px 2px 1px #cc5566;
+                /*(right offset)px (left offset)px (fade)px color*/
+            }
+            #box{
+                box-shadow: 9px 9px 5px #301934;
+            
+            }
+            #indent{
+                text-indent: 50%;
+            }
+
+            .text1{
+                color:red;
+                font: size 30px;
+            }
+            .p1{
+                color:blueviolet;
+                font-family:'Courier New', Courier, monospace
+            }
+            div{
+                width: 100px;
+                height:100px;
+                background-color: darkslateblue;
+                border: 1px solid blue;
+            }
+            #myDiv{
+                transform: rotateX(150deg);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Typography</h1>
+        <p class="text1">Testing... Welcome to codingal!</p>
+        <p class="p1">Testing... Welcome to codingal!</p>
+        <div>codingal</div>
+        <div id="myDiv">Codingal</div>
+        <h1>overline</h1>
+        <h2>LiNe ThroUgh</h2>
+        <h3>Underline</h3>
+        <h4>Underline&overline</h4>
+        <h1 id="text">example</h1>
+        <h1 id="box">example</h1>
+        <h1 id="indent">example</h1>
+        
+       
+    </body>
+</html>
