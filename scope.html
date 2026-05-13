@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Scope</title>
+    </head>
+    <body>
+        <button type="button" onclick="myFunction()">click me!</button>
+        <p style="color: green;" id="demo"></p>
+        <p style="color: aqua;" id="demo1"></p>
+        <p id="demo2"></p>
+       
+        <script src="javascriptfunction.js"></script>
+    <h1 style="color: green;">function declaration</h1>
+    <p  style="color: rgb(0, 55, 255);" id="demo3"></p>
+    <script>
+        var result = function (a, b) {return a * b;}
+        document.getElementById("demo3").innerHTML = result(5, 8);
+    </script>
+    </body>
+</html>
