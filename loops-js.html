@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Loops in JavaScript</title>
+    </head>
+    <body>
+        <h1>Loops in JavaScript</h1>
+        <p id="demo"></p>
+        <script>
+            var fruits = ["Apple", "Mango", "Grapes", "Banana", "Pineapple", "Watermelon"];
+            var text = "";
+            var i;
+            for (i = 0; i < fruits.length; i++) {
+                text += fruits[i] + "<br>";
+            }
+           document.getElementById("demo").innerHTML = text;
+           document.write("I love " + fruits[1]);
+        </script>
+    </body>
+</html>
