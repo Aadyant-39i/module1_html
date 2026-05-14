@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Methods in JavaScript</title>
+
+    </head>
+    <body>
+        <h1>JavaScript string methods</h1>
+        <h6>Basic methods</h6>
+        <script>
+            var str = "HeLlO WoRLd!";
+            document.write(str.toUpperCase() + "<br>");
+            document.write(str.toLowerCase() + "<br>");
+            document.write(str.startsWith("y") + "<br>");
+            
+            var str1 = "Hello World!";
+            var patt = new RegExp("Hello"); 
+            var res = patt.test(str1);
+            document.write(res);    
+        </script>
+    </body>
+</html>
