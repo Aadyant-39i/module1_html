@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Array in JavaScript</title>
+    </head>
+    <body>
+        <h5>Arrays in JS</h5>
+        <p id="myjoin"></p>
+        <p id="myfirstpop"></p>
+        <p id="mysecondpop"></p>
+        <script>
+            var cars = ["Lamborghini Aventador", "Ferrari La Ferrari", "Porsche 911", "Bugatti Chiron", "McLaren Senna" ];
+            document.getElementById("myjoin").innerHTML =cars.join(" /");
+            cars.pop();
+            document.getElementById("myfirstpop").innerHTML = cars;
+            cars.pop();
+            document.getElementById("mysecondpop").innerHTML = cars;
+            
+        </script>
+    </body>
