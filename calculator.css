@@ -1,0 +1,9 @@
+body{
+    font-family: "Open Sans", sans-serif;
+    background-color: black;
+    
+}
+#calculator{
+    width: 1000px;
+    height: 550px;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(111, 111, 122, 0.8));
